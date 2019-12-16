@@ -1,0 +1,295 @@
+
+body {
+	
+	position: relative;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eaebeb;
+}
+
+em {
+	font-style: normal;
+}
+
+.main {
+	width: 60%;
+	height: 1080px;
+	margin: 0 auto;
+	padding: 10pt;
+}
+
+	div.scroll {  （
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		color: black;
+		padding: 5px;
+		margin: 5px;/*（外面边距）*/
+		overflow-x: hidden;  /*（横向的太多就截掉）*/
+		overflow-y: auto;/*（纵向的太多就是出现滚动条）*/
+	}
+	/* width */
+	div.scroll::-webkit-scrollbar { /*（滚动条控件）*/
+		width: 2px;  /*（滚动条本身的宽度）*/
+	}  
+	/* Track */
+	div.scroll::-webkit-scrollbar-track {  /*（滚动条轨道背景）*/
+		box-shadow: inset 0 0 1px grey;  /*（投影效果：内投影）*/ 
+		border-radius: 10px;   /*（滚动条圆角的半径）*/
+	}
+	/* Handle */
+	div.scroll::-webkit-scrollbar-thumb {  /*（可以拖动的控制板）*/
+		background: #66cc00;    
+		border-radius: 10px;
+	}
+	/* Handle on hover */
+	div.scroll::-webkit-scrollbar-thumb:hover/*（悬停控制板颜色更深）*/{
+		background: #264d00;  
+	}
+
+
+
+.touImg {
+	text-align: left;
+	margin-top: 40px;
+}
+
+.name {
+	font-size: 23px;
+	text-align: left;
+}
+
+.detail, .name {
+	color: #255;
+}
+
+.title-text {
+	font-size: 20px;
+	color: #255;
+	border-bottom: 1px solid #255;
+	font-weight: bolder;
+}
+
+.fl {
+	float: left;
+}
+
+.name-detail {
+	color: #255;
+	margin-left: 50px;
+}
+
+.name-detail p span {
+	width: 80px;
+	display: inline-block;
+}
+
+.robot-detail {
+	color: #255;
+	margin-left: 20px;
+}
+
+.tableClass {
+	width: 100%;
+	color: #255;
+}
+
+.imgloc1{
+padding-left: 0%  ;
+}
+
+.imgloc2{
+padding-left: 6%;
+}
+
+.imgloc3{
+padding-left: 0%
+}
+
+.imgloc4{
+padding-left: 6%;
+}
+
+.imgloc5{
+padding-left: 1%;
+}
+
+.firstTr {
+	border: 1px solid #255;
+	text-align: center;
+	color: white;
+	background-color: rgba(96, 96, 96, 0.3);
+	vertical-align: middle;
+	padding: 5px;
+}
+
+table tr td {
+	border: 1px solid #255;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr th {
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr {
+	display: table-row;
+	vertical-align: inherit;
+}
+
+
+
+.textloc1 {
+	color: black;
+	font-size: 15pt;
+	padding-left: 19.5%;
+}
+
+.textloc2 {
+	color: black;
+	font-size: 15pt;
+	padding-left: 32.5%;
+}
+
+.textloc3 {
+	color: black;
+	font-size: 15pt;
+	padding-left: 5%;
+}
+
+.textloc4 {
+	color: black;
+	font-size: 15pt;
+	padding-left: 5%;
+}
+
+
+.imgloc7{
+padding-left: 11%;
+}
+
+.imgloc8{
+padding-left:0;
+}
+
+.imgloc9{
+padding-left: 11%;
+}
+
+.imgloc10{
+padding-left: 0%;
+}
+
+.imgloc11{
+padding-left: 11%;
+}
+
+.nav {
+	width: 100%;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+}
+
+.nav a {
+	color: white;
+	line-height: 40px;
+}
+
+.left {
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 50%;
+	background: url(../pic/左灰.png);
+	background-size: cover;
+	position: fixed;
+	left: 7.5%;
+	top: 370px;
+	z-index: 999;
+	translate: 1s;
+}
+
+.right {
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 50%;
+	background: url(../pic/右灰.png);
+	background-size: cover;
+	position: fixed;
+	right: 7.5%;
+	top: 370px;
+	z-index: 999;
+	translate: 1s;
+}
+
+.left:hover {
+	background: url(../pic/左红.png);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-size: cover;
+	position: fixed;
+	left: 7.5%;
+	top: 370px;
+	z-index: 999;
+	translate: 1s;
+}
+
+.right:hover {
+	translate: 1s;
+	background: url(../pic/右红.png);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-size: cover;
+	position: fixed;
+	right: 7.5%;
+	top: 370px;
+	z-index: 999;
+}
+
+.main {
+	background: white;
+}
+.main {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 10pt;
+    padding-top: 10pt;
+    padding-right: 10pt;
+    padding-bottom: 10pt;
+    padding-left: 10pt;
+}
+.nav a {
+	text-decoration: none;
+}
+
+.nav a:hover{
+	text-decoration: underline;
+}
+.bottom {
+	text-align: center;
+	width: 260px;
+	height: 32px;
+	margin: 0 auto;
+}

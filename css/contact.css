@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.nav a {
+    color: white;
+    line-height: 40px;
+}
+
+.textloc1 {
+    color: black;
+    font-size: 15pt;
+    padding-left: 20%;
+}
+
+.textloc2 {
+    color: black;
+    font-size: 15pt;
+    padding-left: 25%;
+}
+
+.textloc3 {
+    color: black;
+    font-size: 15pt;
+    padding-left: 5%;
+}
+
+.textloc4 {
+    color: black;
+    font-size: 15pt;
+    padding-left: 5%;
+}
+
+em {
+    font-style: normal;
+}
+
+body {
+    background: #eaebeb;
+}
+
+.contenter {
+    position: relative;
+}
+
+.contenter i {
+    font-style: normal;
+    position: absolute;
+    font-size: 120px;
+    font-weight: bold;
+    color: #feffff;
+    font-family: Anton;
+    transform: rotate(90deg);
+}
+
+.contenter b {
+    font-style: normal;
+    position: absolute;
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.1);
+    font-family: Anton;
+}
+span{
+    font-size: 90px;
+    color: rgb(0, 0, 0,0.1);
+    font-weight: bold;
+    font-family: Anton;
+    position: absolute;
+    bottom: -300px;
+    left: 25px;
+    letter-spacing: 5.5px;
+}
+h1{
+    position: absolute;
+    line-height: 50px;
+    left: 75px;
+}
+.b1 {
+    top: 345px;
+    left: 235px;
+    position: absolute;
+}
+
+.b2 {
+    top: 450px;
+    left: 400px;
+    position: absolute;
+}
+
+.i1 {
+    top: 330px;
+    left: 975px;
+}
+
+.i2 {
+    top: 380px;
+    left: 805px;
+}
+
+.contenter p {
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 150px;
+    font-weight: bold;
+    font-family: Anton;
+    margin-left: 25px;
+    line-height: 185px;
+}
+
+.contenter em {
+    font-size: 50px;
+    font-weight: bold;
+    float: right;
+    color: white;
+    font-family: Anton;
+    position: absolute;
+}
+
+.em1 {
+    top: 180px;
+    left: 735px;
+    position: absolute;
+}
+
+.em2 {
+    top: 260px;
+    left: 735px;
+    position: absolute;
+}
+
+@font-face {
+    font-family: 'Varela';
+    src: url(../pic/fonts/VarelaRound-Regular.ttf);
+    font-family: 'Anton';
+    src: url(../pic/fonts/Anton-Regular.ttf);
+}
