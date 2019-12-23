@@ -1,2 +1,0 @@
-# szCyber.github.io
-szCber
